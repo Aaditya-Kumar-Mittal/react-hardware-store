@@ -1,0 +1,39 @@
+.product-reviews ul {
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-reviews li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.product-reviews .rates {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product-reviews .rates .rate-comment {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.product-reviews .rates .rate-comment span:nth-of-type(2) {
+  color: #ffcd4e;
+  font-weight: 500;
+}
+
+.product-reviews p {
+  text-align: justify; /* Justify the text */
+  line-height: 1.6; /* Adjust line height for readability */
+}
+
+.product-reviews .rate-comment p {
+  text-align: justify; /* Justify the review text as well */
+  line-height: 1.6; /* Ensure readability in reviews */
+}
